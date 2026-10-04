@@ -7,7 +7,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -29,3 +28,4 @@ jobs:
       - name: CI Successful
         run: |
           echo "Application passed automated CI checks."
+          
